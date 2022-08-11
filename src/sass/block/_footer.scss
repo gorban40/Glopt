@@ -1,0 +1,93 @@
+.footer {
+    min-height: 201px;
+    padding: 24px 0 36px 0;
+    background-color: #25333c;
+    &__up {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+        column-gap: 43px;
+        align-items: center;
+        a {
+            display: block;
+        }
+    }
+    &__logo {
+        display: grid;
+        grid-template-columns: 70px 1fr;
+        column-gap: 43px;
+        align-items: center;
+    }
+    &__logotext {
+        font-size: 16px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: start;
+    }
+    &__divider {
+        margin-top: 26px;
+        height: 1px;
+        opacity: 0.3;
+        background-color: #898989;
+    }
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 2fr 3fr;
+        margin-top: 20px;
+        align-items: center;
+    }
+    &__2010 {
+        opacity: 0.6;
+        font-size: 13px;
+        font-weight: 300;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    &__politic {
+        font-size: 13px;
+        font-weight: 300;
+        text-decoration: underline;
+        color: $main-color;
+        text-align: end;
+    }
+    &__site {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        &_text {
+            opacity: 0.6;
+            font-size: 13px;
+            font-weight: 300;
+            color: #ffffff;
+        }
+    }
+    &__call{
+        display: flex;
+        justify-content: flex-end;
+        column-gap: 20px;
+        text-align: center;
+    }
+    &__phone{
+        font-size: 19px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #ffffff;
+        text-decoration: none;
+        transition: 0.5s all;
+        &:hover {
+            color: $main-color;
+        }
+    }
+    &__qestion{
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: right;
+    }
+    &__wrapper_question {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}

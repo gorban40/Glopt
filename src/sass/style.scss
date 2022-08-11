@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import 'libs/bootstrap-reboot.min.css';
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.show {
+    display: block;
+    transition: 0.5s all;
+}
+.hidden {
+    display: none;
+    transition: 0.5s all;
+}
+@import 'base/variebls';
+@import 'base/mixins';
+@import 'block/btn';
+@import "block/title";
+@import 'block/subtitle';
+@import 'block/divider';
+@import 'block/promo';
+@import 'block/headlines';
+@import 'block/advantages';
+@import 'block/work';
+@import 'block/agent';
+@import 'block/price';
+@import 'block/us';
+@import 'block/reviews';
+@import 'block/question';
+@import 'block/map';
+@import 'block/footer';
+@import 'block/manager';
+@import 'block/overlay';
+@import 'block/media';
+
+

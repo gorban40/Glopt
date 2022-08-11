@@ -1,0 +1,70 @@
+.question {
+    background-color: green;
+    min-height: 438px;
+    background: center center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('../img/promo__bg/bg__consultation.jpg');
+    &__main {
+        padding-top: 60px;
+    }
+    &__wrapper {
+        width: 100%;
+        height: 68px;
+        background-color: #25333c;
+        margin: 0 auto;
+    }
+    &__title {
+        //Text
+        padding-top: 10px;
+        font-size: 19px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+    }
+    &__subtitle {
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+    }
+    &__form {
+        width: 100%;
+        height: 229px;
+        background-color: #ffffff;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 20px;
+        padding-top: 17px;
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 17px 10px 0 10px;
+        align-items: center;
+    }
+    &__input {
+        @include input;
+        width: 250px;
+        height: 47px;
+        background-color: #ffffff;
+        border: 1px solid rgba(0,0,0,0.2);
+        opacity: 1;
+        textarea {
+            background-color: #ffffff;
+        }
+    }
+    &__textarea {
+        width: 815px;
+        height: 73px;
+        background-color: #ffffff;
+        border: 1px solid rgba(0,0,0,0.2);
+        resize: none;
+        padding-left: 26px;
+        padding-top: 20px;
+        border-radius: 20px;
+        // Text
+        font-size: 13px;
+        font-weight: 300;
+        color: #616467;
+    }
+}

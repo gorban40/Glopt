@@ -1,0 +1,27 @@
+.us{
+    padding-top: 50px;
+    background-color: #f3f3f3;
+    padding-bottom: 45px;
+    &__wrapper {
+        margin-top: 33px;
+        display: flex;
+        justify-content: center;
+        column-gap: 40px;
+        flex-wrap: wrap;
+        row-gap: 26px;
+    }
+    &__item {
+        display: grid;
+        grid-template-columns: 250px;
+        grid-template-rows: 50px 30px 50px;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__title {
+        display: block;
+        bottom: 0px;
+        padding-top: 10px;
+    }
+}

@@ -1,0 +1,28 @@
+@mixin circle {
+    margin: 0 auto;
+    width: 102px;
+    height: 102px;
+    border: 1px solid $main-color;
+    border-radius: 100%;
+    position: relative;
+}
+@mixin icone_in_circle {
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+@mixin input {
+    border: 1px solid #898989;
+    border-radius: 30px;
+    width: 20%;
+    height: 47px;
+    //Text
+    opacity: 0.7;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #101010;
+    padding-left: 15px;
+}

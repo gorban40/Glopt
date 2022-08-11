@@ -1,0 +1,20 @@
+.btn{
+    width: 160px;
+    height: 45px;
+    background-color: $main-color;
+    border-radius: 30px;
+    border: none;
+    //text
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $second-color;
+    cursor: pointer;
+    transition: 0.5s all;
+    &:hover {
+        box-shadow: -5px -5px 30px 5px whitesmoke, 5px 5px 30px 5px $main-color;
+        background-color: white;
+        color: $main-color;
+    }
+} 

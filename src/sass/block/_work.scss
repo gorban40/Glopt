@@ -1,0 +1,35 @@
+.work {
+    padding-top: 50px;
+    padding-bottom: 57px;
+    &__wrapper {
+        display: flex;
+        column-gap: 30px;
+        margin-top: 37px;
+        flex-wrap: nowrap;
+    }
+    &__title {
+        margin-top: 28px;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        color: $main-color;
+        text-align: center;
+    }
+    &__descr {
+        margin-top: 18px;
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 300;
+        color: #3a3a3a;
+    }
+    &__item {
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+            width: 360px;
+            height: 210px;
+        }
+    }
+}

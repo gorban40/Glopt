@@ -1,0 +1,25 @@
+.manager {
+    min-height: 342px;
+    background-color: gray;
+    background: center center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('../img/promo__bg/bg__manager.jpg');
+    &__wrapper {
+        margin: 0 auto;
+        padding-top: 60px;
+    }
+    &__descr {
+        font-size: 19px;
+        line-height: 27px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 22px;
+    }
+    &__circle {
+        @include circle;
+        border: 1px solid #ffff;
+    }
+    &__icon {
+        @include icone_in_circle;
+    }
+}

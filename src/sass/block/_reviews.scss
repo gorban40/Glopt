@@ -1,0 +1,76 @@
+.reviews {
+    padding-bottom: 65px;
+    &__slider {
+        margin-top: 31px;
+        position: relative;
+    }
+    &__item {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__photo {
+        width: 115px;
+        height: 115px;
+        display: block;
+        margin: 0 auto;
+    }
+    &__title {
+        margin-top: 19px;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        color: #3a3a3a;
+        text-align: center;
+    }
+    &__descr {
+        display: block;
+        margin: 0 auto;
+        font-size: 14.1px;
+        line-height: 22px;
+        font-weight: 300;
+        color: #3a3a3a;
+        padding-top: 15px;
+        text-align: center;
+        width: 600px;
+        text-align: center;
+    }
+    &__next {
+        position: absolute;
+        right: 40%;
+        top: 40px;
+        cursor: pointer;
+        transition: 0.5s all;
+        &:hover {
+            transform: scale(1.5);
+        }
+    }
+    &__prev {
+        position: absolute;
+        left: 40%;
+        top: 40px;
+        cursor: pointer;
+        transition: 0.5s all;
+        &:hover {
+            transform: scale(1.5);
+        }
+    }
+}
+.tns-nav {
+    margin-top: 20px;
+    position: absolute;
+    left: 47%;
+    transform: translateX(-50%);
+    button {
+        transition: 1s all;
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        margin-left: 15px;
+        background-color: #3a3a3a;
+    }
+}
+.tns-nav-active {
+        background-color: $main-color !important;
+}
